@@ -1,3 +1,4 @@
+Part 1:
 I use the following packages in the tidyverse assigment: readr, forcats, and ggplot2. I provide examples using these packages on a dataset of comic book characters.
 
 readr
@@ -9,3 +10,5 @@ The forcats package provides tools for solving problems with factors. Factors ar
 ggplot2
 ggplot2 is used for displaying graphics. You use it by first supplying the ggplot function data, then specifying how to map the variables to the aesthetics, and then add on layers for types of graphs such as geom_point() for a points graph or geom_bar() for a bar graph, scales, anc coordinate systems. In this assignment, it is used to plot data by eye colors of comic book characters.
 
+Part 2:
+I have extended Yohannes Deboch's example with the ggplot2 package. Three extra plots are added: Bubble chart for cholesterol vs. age, Bar plot for age vs. chest pain, and jitter plot to show variation for age vs. chest pain.
