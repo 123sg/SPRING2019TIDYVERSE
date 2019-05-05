@@ -1,0 +1,11 @@
+I use the following packages in the tidyverse assigment: readr, forcats, and ggplot2. I provide examples using these packages on a dataset of comic book characters.
+
+readr
+The readr package is a fast way to read in rectangular data like a CSV file. It is useful in that it is capable of parsing many types of data. It is used in my file to read in comic book character data.
+
+forcats
+The forcats package provides tools for solving problems with factors. Factors are useful for categorical data, and when there are variables with a set of fixed known values, and for when you want to show character vectors in non-alphabetical order. It can also be used to convert unknown values to NA. In this assignment, it is used to analyze data by eye colors of comic book characters.
+
+ggplot2
+ggplot2 is used for displaying graphics. You use it by first supplying the ggplot function data, then specifying how to map the variables to the aesthetics, and then add on layers for types of graphs such as geom_point() for a points graph or geom_bar() for a bar graph, scales, anc coordinate systems. In this assignment, it is used to plot data by eye colors of comic book characters.
+
